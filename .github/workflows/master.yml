@@ -27,3 +27,6 @@ jobs:
       
     - name: Code Coverage with Istanbul
       run: npm run coverage
+      
+    - name: Linting Fixes with ESLint
+      run: npm run lint
