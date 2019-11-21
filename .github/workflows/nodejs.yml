@@ -18,6 +18,9 @@ jobs:
         
     - name: Clean npm install
       run: npm ci
-      
+
     - name: Unit tests
       run: npm test
+      
+    - name: Code Coverage with Istanbul
+      run: npm run coverage
